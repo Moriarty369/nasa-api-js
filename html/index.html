@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+    <head>
+        <title>API NASA</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        lin
+    </head>
+    <body>
+        <style>
+            #speed-container {
+                position: fixed;
+                right: 2em;
+                bottom: 0;
+            }
+            h1, h2, #start {
+                color: white;
+            }
+            table {
+                background-color: white;
+                margin-bottom: 2em;
+            }
+        </style>
+        
+        <header class="row">
+            <nav class="blue darken-1">
+                <div class="nav-wrapper">
+                    <div class="col s12">
+                        <a href="#" class="brand-logo">Factoría</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <main>
+                <section>
+                    <h1 class="center-align">Foto astronómica del día</h1>
+                    <div class="row">
+                        <div class="col s12 m8 offset-m2">
+                            <div id="apod" class="card">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <aside>
+                    <h2>Información de Asteroides</h2>
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input type="text" id="start" class="datepicker">
+                                <label for="start">Approach Date</label>
+                            </div>
+                        </div>
+                    </form>
+                    <table id="afeedTable" class="striped hide">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Nombre</th>
+                                <th>¿Peligroso?</th>
+                                <th>Magnitud</th>
+                                <th>Min</th>
+                                <th>Max</th>
+                                <th>Ditancia</th>
+                                <th>Fecha de acercamiento</th>
+                            </tr>
+                        </thead>
+                        <tbody id="afeed">
+                            
+                        </tbody>
+                    </table>
+                </aside>
+            </main>
+        </div>
+        <footer class="page-footer blue darken-1">
+            <div class="container">
+                <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Api de la Nasa en factoría</h5>
+                    <p class="grey-text text-lighten-4">Hazlo en una hora o menos si puedes ;)</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Astronauta</h5>
+                    <ul>
+                        <li><a target="_blank" class="grey-text text-lighten-3" href="#">Abelardo y sus tutoriales</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                © 2024 Factoría
+                </div>
+            </div>
+        </footer>
+
+        <div id="speed-container" class="range-field">
+            <label for="speed-slider">Velocidad</label>
+            <input value="20" type="range" id="speed-slider" step="1" min="0" max="100" />
+        </div>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="../script/script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+        <script src="../script/main.js"></script>
+    </body>
+</html>
