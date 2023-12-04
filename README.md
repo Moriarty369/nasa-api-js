@@ -13,10 +13,10 @@ Este proyecto es una aplicación web que utiliza la API de la NASA para recoger 
 
 ## Capturas de Pantalla
 
-![Captura de Pantalla 1](img/capture-landing)
+![Captura de Pantalla 1](img/capture-landing.png)
 *Página principal con tarjetas de asteroides*
 
-![Captura de Pantalla 2](img/capture-info)
+![Captura de Pantalla 2](img/capture-info.png)
 *Detalles de un asteroide*
 
 ## Modo de Uso
