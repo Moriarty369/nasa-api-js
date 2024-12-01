@@ -1,5 +1,61 @@
 # NASA Asteroid Explorer
 
+This project is a web application that utilizes NASA's API to gather data about asteroids. The user interface is designed with Materialize CSS and displays detailed information about asteroids, including images, descriptions, and characteristics. The app allows data filtering, individual details view, and offers a user-friendly experience.
+
+## Features
+
+- **API Consumption:** The application consumes the [NASA API](https://api.nasa.gov/) to retrieve asteroid data.
+- **Attractive Interface:** The user interface is built with Materialize CSS for a modern and responsive design.
+- **Data Presentation:** Information is displayed in an organized way using cards and tables.
+- **Pagination:** The asteroid section is implemented with pagination for a better user experience.
+- **Single Item Details:** Detailed information about an asteroid can be accessed by clicking on it.
+- **Information Filtering:** Data can be filtered using a search bar or by categories.
+
+## Screenshots
+
+![Screenshot 1](img/capture-landing.png)  
+*Homepage featuring asteroid cards*
+
+![Screenshot 2](img/capture-info.png)  
+*Asteroid detail view*
+
+## Usage
+
+1. Clone this repository: `git clone https://github.com/Moriarty369/nasa-api-js`
+2. Open the `index.html` file in your web browser.
+
+## Project Structure
+
+- **index.html:** The main page of the application.
+- **style.css:** Stylesheet for the interface design.
+- **script.js:** JavaScript file for the application logic.
+- **api.js:** Configuration and functions for NASA API calls.
+
+## API Configuration
+
+Before running the application, make sure to obtain your free API key from the [NASA API](https://api.nasa.gov/). Replace the `apiKey` variable in the `api.js` file with your key.
+
+```javascript
+const apiKey = 'YOUR_API_KEY';
+```
+
+## Deployment
+
+This project can be easily deployed on platforms like GitHub Pages, Netlify, or Vercel. Simply follow the deployment instructions for your chosen platform.
+
+## Links
+- [GitHub Repository](https://github.com/yourusername/nasa-asteroid-explorer)
+- [Live Deployment](https://moriarty369.github.io/nasa-api-js/) 
+
+Explore the universe of asteroids with this application! 🚀✨
+
+--- 
+
+Feel free to replace placeholder text (like `yourusername`, `YOUR_API_KEY`, and `https://yourdomain.com`) with the actual information for your project.
+
+
+# ESPAÑOL - NASA Asteroid Explorer
+
 Este proyecto es una aplicación web que utiliza la API de la NASA para recoger datos sobre asteroides. La interfaz de usuario está diseñada con Materialize CSS y muestra información detallada sobre los asteroides, incluyendo imágenes, descripciones y características. La aplicación permite filtrar la información, ver detalles individuales y ofrece una experiencia de usuario amigable.
 
 ## Características
@@ -44,9 +100,7 @@ const apiKey = 'TU_CLAVE_DE_API';
 Este proyecto puede ser desplegado fácilmente en plataformas como GitHub Pages, Netlify o Vercel. Simplemente sigue las instrucciones de despliegue de la plataforma de tu elección.
 
 ## Enlaces
-
-- [Figma Design](https://www.figma.com/file/XXXXXXXXX/nasa-asteroid-explorer)
-- [Repositorio en GitHub]([https://github.com/tuusuario/nasa-asteroid-explorer](https://github.com/Moriarty369/nasa-api-js))
-- [Enlace de Despliegue](https://tudominio.com/nasa-asteroid-explorer) (si aplica)
+- [Repositorio en GitHub]((https://github.com/Moriarty369/nasa-api-js))
+- [Enlace de Despliegue](https://moriarty369.github.io/nasa-api-js/) 
 
 ¡Explora el universo de asteroides con esta aplicación! 🚀✨
